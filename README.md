@@ -57,3 +57,13 @@ ____
 
 #### 1. Your branch is no longer up to date with the remote branch ( main / masters ).
 You were working on your branch and a dev on your team has raised a PR to merge his/her changes onto the remote branch. Your current working branch is now no longer up-to-date. 
+
+#### Setup
+1. We will create a branch and replicate a merge 
+2. `git_demo2` will have changes
+```shell
+git checkout -b git_demo2
+git add file1.txt && git commit -m "added file1.txt"
+git push --set-upstream origin git_demo2
+git log
+```
